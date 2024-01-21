@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
+  
+  <!-- font asome -->
+  <script src="https://kit.fontawesome.com/7fd1922fc5.js" crossorigin="anonymous"></script>
   <!--Font style -->
   <style>
     .font-manrope {
@@ -37,7 +40,7 @@
     <div class="hero">
       <div class="hero-content flex-col lg:flex-row">
         <div class="flex-1">
-          <h1 class="text-7xl font-extrabold">It's good <br>
+          <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>
             tea time at The <br> Tea House</h1>
           <p class="text-lg font-medium text-[#777] py-7">Tea and Botanical Solutions Supplier Give Optimum <br>
             Satisfaction To Your Taste Buds.</p>
@@ -148,7 +151,7 @@
 
     <!-- super client section -->
     <section
-      class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24">
+      class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-4 lg:px-16 py-24">
       <div class="flex lg:pr-28 items-center">
         <div class="space-y-5">
           <h2 class="text-5xl text-white font-extrabold">Meet Our Super
@@ -203,11 +206,62 @@
     </section>
     <!-- super client section end -->
 
+    <!-- News & Events start -->
+    <section class="my-24 text-center">
+      <h3 class="text-5xl font-extrabold text-[#1C1C1C] mb-5 ">News & Events</h3>
+      <p class="text-base font-medium text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+    </section>
+    <!-- News & Events end -->
+
 
 
   </main>
-  <footer>
+  <footer class="px-4 lg:px-40 py-10 bg-base-200  bg-gradient-to-r from-red-100 to-[#FF893826] text-base-content">
+    <div class="flex justify-between items-center my-24">
+      <img src="./images/cup.png" alt="">
+        <p>
+           <span>Ready to get strated?</span>
+          <button class="btn rounded-lg text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">Get Started</button>
+        </p>
 
+    </div>
+    <div class="footer">
+      <nav>
+        <header class="footer-title">Quick Links</header> 
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Insurance</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <header class="footer-title text-[#1C1C1C]">Subscribe to our <br> newsletter</header> 
+        <fieldset class="form-control w-80"> 
+          <div class="join">
+            <input type="text" placeholder="Email address" class="bg-transparent py-4 border-b-2 border-black outline-none" /> 
+            <button class="btn rounded-full text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <aside class="mt-14 text-center">
+      <p>© 2027 UIDesign.to - All rights reserved.</p>
+    </aside>
   </footer>
 
 </body>
